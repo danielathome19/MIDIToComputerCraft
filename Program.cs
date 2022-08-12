@@ -122,4 +122,4 @@ ctrlcode.Append("modem.transmit(35, 0, \"" + midiname + "m.lua\")\n");
 ctrlcode.Append("modem.transmit(55, 0, \"" + midiname + "t.lua\")\n");
 
 var ctrlKey = PostPaste(ctrlcode.ToString(), midiname + "ctrl").GetAwaiter().GetResult();
-WriteLine($"\nPastebin command:\npastebin get {ctrlKey} {midiname}ctrl.lua");
+WriteLine($"\nPastebin command:\npastebin get {ctrlKey} {midiname}ctrl.lua"); ReadLine();
