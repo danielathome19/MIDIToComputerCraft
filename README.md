@@ -12,7 +12,7 @@ Finally, the master controller is generated a Lua script to download the respect
 A video demonstration can be seen [here]().
 
 # Usage
-See https://github.com/danielathome19/MIDIToComputerCraft/releases for a downloadable demo along with the Minecraft world save (made in the FTB Direwolf20 1.18.0 modpack).
+See https://github.com/danielathome19/MIDIToComputerCraft/releases for a downloadable demo along with the Minecraft world save (made in the FTB Direwolf20 1.18.0 modpack). The program was built using .NET 6.0.
 
 You will need to make a Pastebin account to obtain an API key, which the program will prompt for along with the username/password if a **.env** file is not found in the current program directory.
 
