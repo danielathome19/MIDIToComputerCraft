@@ -9,7 +9,7 @@ For ties (F#4 and F#5), if the note is approached from below, the tie is broken 
 Once the notes are divided into their respective set of pipes, a Lua script is generated for each sub-controller with the notes respective to its controlled set.
 Finally, the master controller is generated a Lua script to download the respective scripts onto each sub-controller, wait 10 seconds for them to finish downloading, then play the piece of music.
 
-A video demonstration can be seen [here](https://youtu.be/kaEVRs9GTrI).
+A video demonstration can be seen [here (including a walkthrough of the project)](https://youtu.be/kaEVRs9GTrI) and [here](https://streamable.com/sbh0qg).
 
 # Usage
 See https://github.com/danielathome19/MIDIToComputerCraft/releases for a downloadable demo along with the Minecraft world save (made in the FTB Direwolf20 1.18.0 modpack). The program was built using .NET 6.0.
