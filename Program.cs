@@ -98,7 +98,7 @@ static async Task<string> PostPaste(string code, string title) {
     } else Pastebin.DevKey = DotNetEnv.Env.GetString("DEV_KEY");
     try {
         User me = await Pastebin.LoginAsync(DotNetEnv.Env.GetString("USERNAME"), DotNetEnv.Env.GetString("PASS"));
-        Paste newPaste = await me.CreatePasteAsync(code, title, Language.Lua, Visibility.Public, Expiration.Never);
+        Paste newPaste = await me.CreatePasteAsync(code, title, Language.Lua, Visibility.Unlisted, Expiration.Never);
         return newPaste.Key;
     } catch (PastebinException ex) {
         if (ex.Parameter == PastebinException.ParameterType.Login) Error.WriteLine("Invalid username/password");
